@@ -6,7 +6,7 @@
 
 html, body { height: 100%; overflow: hidden; }
 
-body { background: #110b2c; line-height: 1.5em; color: #fff;}
+body { background: #110b2c !important; line-height: 1.5em; color: #fff;}
 
 .top-degrade {position: absolute; width: 100%; height: 50px; top: 0; left: 0; background: rgb(17,11,44);
   background: linear-gradient(180deg, rgba(17,11,44,1) 0%, rgba(17,11,44,0) 100%); z-index: 2;}
