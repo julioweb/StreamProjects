@@ -1,37 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+<!-- item will be appened to this layout -->
+<div id="log" class="sl__chat__layout"></div>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clonando o Chat do Alanzoka</title>
+<!-- chat item -->
+<script type="text/template" id="chatlist_item">
+  <div data-from="{from}" data-id="{messageId}">
+    <div class="meta" style="background-color: {color};">
+      <span class="badges"></span>
+      <span class="name">{from}</span>
+    </div>
 
-  <link href="default.css" rel="stylesheet" />
-
-</head>
-
-<body>
-
-  <!-- item will be appened to this layout -->
-  <div id="log" class="sl__chat__layout"></div>
-
-  <!-- chat item -->
-  <script type="text/template" id="chatlist_item">
-    <div data-from="{from}" data-id="{messageId}">
-      <div class="meta" style="background-color: {color};">
-        <span class="badges">
-        </span>
-        <span class="name">{from}</span>
-      </div>
-
-      <div class="message">
-        <div class="container-message">
-          {message}
-        </div>
+    <div class="message">
+      <div class="container-message">
+        {message}
       </div>
     </div>
-  </script>
-
-</body>
-
-</html>
+  </div>
+</script>
