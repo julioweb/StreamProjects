@@ -26,6 +26,8 @@ body { background: #110b2c !important; line-height: 1.5em; color: #fff;}
 /* ===== USERNAME ===== */
 #log .meta {position: absolute; top: 0; left: 10px; padding: 9px 14px; line-height: 15px; border-radius: 8px; z-index: 1;
   font-family: 'Merriweather'; font-size: 14px; font-weight: 900;}
+  #log .meta .badges {float: left; margin-right: 10px;}
+  #log .meta .name {float: left; line-height: 21px;}
 
 /* ===== USERMESSAGE ===== */
 #log .message {position: relative; min-height: 20px;}
