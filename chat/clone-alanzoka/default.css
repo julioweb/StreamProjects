@@ -35,3 +35,5 @@ body { background: #110b2c !important; line-height: 1.5em; color: #fff;}
 #log .message {position: relative; min-height: 20px;}
   #log .message .container-message {padding: 20px 18px 15px 18px; border: 2px solid #ffd539; border-radius: 0 10px 10px 10px; display: inline-block;
     font-family: 'Ubuntu'; font-size: 18px; word-break: break-word;}
+    #log .message .container-message .emote {background-image: none !important;}
+    #log .message .container-message .emote img {max-width: 25px;}
