@@ -15,7 +15,7 @@ https://instagram.com/jogacopai
 
 https://twitter.com/jogacopai
 
-https://www.youtube.com/channel/UCfN_o-6BBhNgyX7c5bqXRTA
+https://www.youtube.com/jogacopai
 
 Discord jogacopai#4634
 
