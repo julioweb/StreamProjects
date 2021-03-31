@@ -5,7 +5,7 @@
 
 html, body { height: 100%; overflow: hidden; }
 
-body { background: tranparent !important; line-height: 1.5em; color: #fff;}
+body { background: transparent !important; line-height: 1.5em; color: #fff;}
 
 #log>div { position: relative; padding-top: 21px; margin-bottom: 10px; }
 #log>div { animation: bounceInUp .3s ease forwards, fadeOut 0.5s ease 0 forwards;
